@@ -11,7 +11,7 @@ const app = express();
 const cors = require("cors");
 app.use(cors({
     origin: ["https://spicmacay-e7ge.vercel.app/","https://spicmacay-e7ge-git-main-arnab-pachals-projects.vercel.app/"
-        ,"https://spicmacay-e7ge-kq9idykyp-arnab-pachals-projects.vercel.app/"
+        ,"https://spicmacay-e7ge-kq9idykyp-arnab-pachals-projects.vercel.app/","http://localhost:3000/"
     ], 
     methods: ["GET", "POST", "DELETE"],
     credentials:true 
